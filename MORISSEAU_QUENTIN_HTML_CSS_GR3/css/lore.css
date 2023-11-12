@@ -1,0 +1,77 @@
+.a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(108, 105, 105, 0.5);
+  color: bisque;
+  width: 94vw;
+  padding: 30px;
+}
+
+
+.b {
+  display: flex;
+  justify-content: center;
+  color: #f1f1f1;
+  margin-left: 14%;
+  margin-top: 23%;
+}
+
+
+.c {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -10;
+  width: 98vw;
+}
+
+
+.e {
+  background: rgba(108, 105, 105, 0.5);
+  color: azure;
+  display: flex;
+  justify-content: center;
+  width: 98vw;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav{
+  color: #f1f1f1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 1919px) and (min-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  .container {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .container {
+    background-color: black;
+  }
+}
